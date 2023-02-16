@@ -31,6 +31,10 @@ function createImagesGalleryMarkup(gallery) {
 
 };
 
+new SimpleLightbox('.gallery a', {
+  captionDelay: 250,
+});
+
 // console.log(createImagesGalleryMarkup(galleryItems));
 
 // function onGalleryContainerClick(evt) {
@@ -63,6 +67,3 @@ function createImagesGalleryMarkup(gallery) {
 		
 // }
 
-new SimpleLightbox('.gallery a', {
-  captionDelay: 250,
-});
